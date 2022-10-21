@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 10px;
+  background-color: #f2f0fc !important;
+}
+section, header {
+  margin: 50px;
+}
+
+section, #testui, form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.issue {
+  margin: 20px;
+  padding: 5px;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+button {
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+h3 {
+  color: #616161;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
+.form-control {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
